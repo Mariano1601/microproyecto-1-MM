@@ -49,26 +49,50 @@
   font-size: xx-large;
 }
 
+.ab-element {
+  list-style-type: circle;
+  margin-left: 2em;
+  margin-top: 0.5em;
+}
+
+.about-list {
+  margin-top: 1em;
+}
+
+.aboutme-block {
+  display: flex;
+  flex-direction: column;
+}
+
 .about-me {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: flex-end;
   align-items: center;
+  border: 1px solid black;
+  align-self: flex-end;
+  width: 60vw;
+  margin-right: 10vw;
+  border-radius: 10px;
+  padding: 5vh 0;
 }
 #aboutme {
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
   align-items: center;
+  margin-left: 4vw;
+}
+
+#foto-perfil {
+  margin-top: 4vh;
 }
 
 #info-aboutme {
-  margin-right: 25vw;
+  margin: 0px 2vw 0 5vw;
 }
 
 #experience-block {
   display: flex;
   flex-direction: column;
-  float: center;
 }
 
 .experience {
@@ -79,7 +103,6 @@
   align-items: center;
   width: 50vw;
   align-self: flex-end;
-  /* float: right; */
   margin-right: 10vw;
   margin-bottom: 10vh;
   padding: 4vh 0 4vh 2vw;
