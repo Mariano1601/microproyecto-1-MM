@@ -79,7 +79,7 @@ const submitForm = (e) => {
       email: valueEmail,
       mensaje: valueMensaje,
     });
-    console.log("Formulario envido con exito");
+    alert("Formulario envido con exito");
   } else if (!validateName(valueNombre) && !validatedEmail(valueEmail)) {
     email.style.borderColor = "red";
     nombre.style.borderColor = "red";
