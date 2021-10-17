@@ -181,3 +181,67 @@ a {
   text-decoration: none;
   color: black;
 }
+
+.grafico {
+  display: flex;
+  flex-direction: row;
+}
+
+.numeros {
+  align-self: flex-end;
+  border-right: 1px solid black;
+}
+
+.numero {
+  display: flex;
+  height: 39px;
+  border-top: 1px solid black;
+  justify-content: center;
+  width: 20px;
+}
+
+.space {
+  display: flex;
+  height: 39px;
+  justify-content: center;
+  width: 20px;
+  border-right: 1px solid black;
+}
+
+.valores {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+
+.skills-names {
+  display: flex;
+  flex-direction: row;
+  border-top: 1px solid black;
+}
+
+.skill-name {
+  width: 80px;
+  justify-content: center;
+  text-align: center;
+  height: 25px;
+}
+
+.grafica-container {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid black;
+}
+
+.skill,
+.skill-name {
+  align-self: center;
+  margin-right: 4vw;
+  margin-left: 4vw;
+}
+
+.skill {
+  align-self: flex-end;
+  width: 80px;
+  border-top: 1px solid black;
+}

@@ -1,5 +1,9 @@
 window.onload = function () {
-  const img = ["", "", ""];
+  const img = [
+    "./img/LOGO_HOJALDRE_BAKERY.jpg",
+    "./img/Logo_Playmor1.png",
+    "./img/zkygo_black.png",
+  ];
 
   const intervalo_img = 3000;
   let actual_position = 0;
@@ -93,4 +97,45 @@ const submitForm = (e) => {
     nombre.style.borderColor = "red";
     alert("Nombre no valido");
   }
+};
+window.onload = function () {
+  const loadSkills = () => {
+    const valores = document.getElementById("valores");
+    const nameSkills = document.getElementById("name-skills");
+    const colors = [
+      "green",
+      "#1352D1",
+      "red",
+      "#D9F038",
+      "orange",
+      "brown",
+      "#3F54BB",
+      "#2F9B5A",
+      "#58D1EC",
+      "#7CEA66",
+    ];
+    const skills = {
+      Diseñador_Web: 7,
+      Excel_Word_Powerpoint: 8,
+      Autocad: 6,
+      Python_y_Java: 7,
+      Español_Inglés: 10,
+      Liderazgo: 9,
+      Trabajo_Equipo: 9,
+    };
+    for (const e in skills) {
+      let skill = document.createElement("div");
+      skill.classList.add("skill");
+      skill.style.height = skills[e] * 40 + "px";
+      skill.style.backgroundColor = colors[skills[e] - 1];
+      valores.appendChild(skill);
+
+      let nameSkill = document.createElement("div");
+      nameSkill.innerHTML = e;
+      nameSkill.classList.add("skill-name");
+      nameSkills.appendChild(nameSkill);
+    }
+  };
+
+  loadSkills();
 };
