@@ -60,7 +60,7 @@ const submitForm = (e) => {
 
 window.onload = function () {
   const img = [
-    "./img/LOGO_HOJALDRE_BAKERY.jpg",
+    "./img/LOGO_HOJALDRE_BAKERY.png",
     "./img/Logo_Playmor1.png",
     "./img/zkygo_black.png",
   ];
