@@ -97,6 +97,7 @@ window.onload = function () {
 
   render_img();
   carousel();
+
   const loadSkills = () => {
     const valores = document.getElementById("valores");
     const nameSkills = document.getElementById("name-skills");
