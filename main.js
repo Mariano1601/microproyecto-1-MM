@@ -1,9 +1,5 @@
 window.onload = function () {
-  const img = [
-    "./img/Polarcitaenhielo.jpg",
-    "./img/polarcitafondoneon.jpg",
-    "./img/Polarcitamesa.jpg",
-  ];
+  const img = ["", "", ""];
 
   const intervalo_img = 3000;
   let actual_position = 0;
