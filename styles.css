@@ -7,6 +7,7 @@
 .navbar {
   display: flex;
   justify-content: flex-end;
+  height: 10vh;
   border: 1px solid black;
 }
 
@@ -17,6 +18,11 @@
 
 .nav-element {
   margin: 1.5vw 4vw;
+}
+.nav-element:hover {
+  border: 1px solid black;
+  padding: 0.5vh 0.5vw;
+  align-self: center;
 }
 
 #hero {
@@ -62,8 +68,6 @@
 #experience-block {
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  background-color: red;
   float: center;
 }
 
@@ -74,6 +78,7 @@
   border-radius: 10px;
   align-items: center;
   width: 50vw;
+  align-self: flex-end;
   /* float: right; */
   margin-right: 10vw;
   margin-bottom: 10vh;
@@ -129,14 +134,50 @@ input {
 }
 
 .button-submit {
-  height: 30px;
+  height: 5vh;
+  background-color: transparent;
 }
 
 textarea {
   align-self: center;
   height: 300px;
-  width: 70%;
+  width: 60vw;
   margin-top: 5px;
   margin-bottom: 5px;
   border-radius: 5px;
+}
+
+.social-network {
+  display: flex;
+  flex-direction: column;
+}
+
+.sn {
+  display: flex;
+  background-color: white;
+  border-radius: 10px;
+  align-items: center;
+  width: 200px;
+  padding: 0vw 1vw;
+  margin: 2vh;
+}
+
+.info-contactme {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+#contact-me {
+  margin-bottom: 4vh;
+}
+
+button {
+  cursor: pointer;
+  font-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: black;
 }
