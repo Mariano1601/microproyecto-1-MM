@@ -59,14 +59,22 @@
   margin-right: 25vw;
 }
 
+#experience-block {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: red;
+  float: center;
+}
+
 .experience {
   display: flex;
   justify-content: flex-end;
   border: 1px solid black;
   border-radius: 10px;
   align-items: center;
-  float: right;
   width: 50vw;
+  /* float: right; */
   margin-right: 10vw;
   margin-bottom: 10vh;
   padding: 4vh 0 4vh 2vw;
@@ -106,4 +114,29 @@ section {
 #img-zkygo {
   width: 25vw;
   margin: 1vw;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+input {
+  height: 25px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  border-radius: 5px;
+}
+
+.button-submit {
+  height: 30px;
+}
+
+textarea {
+  align-self: center;
+  height: 300px;
+  width: 70%;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  border-radius: 5px;
 }
