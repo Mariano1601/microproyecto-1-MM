@@ -125,6 +125,10 @@ body {
   margin-left: 1em;
 }
 
+.link-exp {
+  text-decoration: underline;
+}
+
 section {
   margin: 10vh 0;
 }
