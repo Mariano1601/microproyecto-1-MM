@@ -115,7 +115,7 @@ window.onload = function () {
     ];
     const skills = {
       Diseñador_Web: 7,
-      Excel_Word_Powerpoint: 8,
+      Excel_Word_PP: 8,
       Autocad: 6,
       Python_y_Java: 7,
       Español_Inglés: 10,

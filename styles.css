@@ -36,9 +36,9 @@ body {
 }
 
 #img {
-  height: 100%;
   width: 100%;
-  background-size: cover;
+  height: 100%;
+  background-size: contain;
 }
 
 .division {
@@ -282,7 +282,7 @@ a {
 .skill-name {
   align-self: center;
   margin-right: 4vw;
-  margin-left: 4vw;
+  margin-left: 3.5vw;
 }
 
 .skill {
