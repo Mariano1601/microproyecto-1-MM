@@ -129,10 +129,6 @@ window.onload = function () {
       skill.style.backgroundColor = colors[skills[e] - 1];
       valores.appendChild(skill);
 
-      let nameSkill = document.createElement("div");
-      nameSkill.innerHTML = e;
-      nameSkill.classList.add("skill-name");
-      nameSkills.appendChild(nameSkill);
     }
   };
 
